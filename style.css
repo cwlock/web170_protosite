@@ -1,0 +1,368 @@
+@charset "UTF-8";
+/* CSS doc */
+
+/*
+Theme Name: Chris Lockwood's WEB 170 Word Press Theme
+Author: Chris Lockwood
+Author URI: http://www.clockwooddw.com/
+Description: This is a theme for my WEB 170 WordPress Class
+Version: 1.0
+*/
+
+
+* {
+		margin: 0;
+		padding: 0;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 16px;
+	}
+	html {
+		background: #ffffff; /* Old browsers */
+		
+		background: -moz-linear-gradient(top,  #ffffff 1%, #0055a4 99%); /* FF3.6+ */
+		
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#ffffff), color-stop(99%,#0055a4)); /* Chrome,Safari4+ */
+		
+		background: -webkit-linear-gradient(top,  #ffffff 1%,#0055a4 99%); /* Chrome10+,Safari5.1+ */
+		
+		background: -o-linear-gradient(top,  #ffffff 1%,#0055a4 99%); /* Opera 11.10+ */
+		
+		background: -ms-linear-gradient(top,  #ffffff 1%,#0055a4 99%); /* IE10+ */
+		
+		background: linear-gradient(to bottom,  #ffffff 1%,#0055a4 99%); /* W3C */
+		
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#0055a4',GradientType=0 ); /* IE6-9 */
+		
+	}
+	.headercontent {
+		max-width: 980px;
+		margin: 0 auto;
+	}
+	header {
+		height: 100px;
+		max-width: 980px;
+		margin: 0 auto;
+	}
+	header #siteid {
+		width: 50%;
+		height: 100px;
+		float:left;
+	}
+	header #siteid img {
+		height: 100%;
+	}
+	.utility {
+		width: 50%;
+		float: right;
+		height: 100px;
+	}
+	.utility .social {
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+	.utility .social a {
+		width: 45px;
+		float: left;
+	}
+	.utility .social #facebook {
+		position:absolute;
+		bottom: 20px;
+		right: 230px;
+	}
+	.utility .social #yelp {
+		position:absolute;
+		bottom: 20px;
+		right: 160px;
+	}
+	.utility .social #twitter {
+		position:absolute;
+		bottom: 20px;
+		right: 90px;
+	}
+	.utility .social #email {
+		position:absolute;
+		bottom: 20px;
+		right: 20px;
+	}
+	/*RESPONSIVE NAV START*/
+
+
+	/*RESPONSIVE NAV END*/
+
+	#mainnav {
+		max-width: 100%;	
+		height: 50px;	
+		background-color: #F78F1E;
+		margin: 0 auto;		
+	}
+	#mainnav ul {
+		width: 71.428571%;
+		float: left;
+		height: 100%;
+		position:relative;
+		list-style-type: none;
+	}
+	#mainnav ul li {
+		width: 20%;
+		display: inline-block;
+		text-align:center;
+		padding: 15px 0;
+	}
+	#mainnav ul li:hover {
+		background-color: #CCCCCC;
+	}
+	#mainnav ul li:hover ul {
+		display: block;
+		width: 20%;
+	}
+	#mainnav ul ul {
+		display:none;
+		position: absolute;
+		z-index: 1000;
+		margin-top: 10px;
+	}
+	#mainnav ul ul li {
+		display:block;
+		width: 100%;
+		background-color: #808080;
+		padding: 15px 0;
+	}
+	#mainnav ul li a {
+		color: white;
+		text-decoration:none;
+		text-align:center;
+		font-size: 1.25em;
+	}
+	#mainnav ul ul li a {
+		font-size: 1em;
+	}
+	
+	/*SEARCH BOX*/
+	.searchbox {
+			width: 16.326531%;
+			float: right;
+			margin: 10px 2.040816% 10px 0;
+			height: 30px;
+			border: 1px solid #000;
+	}
+	.searchbox .searchform {
+		width: 100%;
+	}
+	.searchbox .searchform #search {
+		width: 81.25%;
+		float:left;
+		border: none;
+		height: 30px;
+	}
+	.searchbox .searchform .submit {
+		width: 18.75%;
+		float: left;
+		min-height: 30px;
+	}
+	/*END SEARCH BOX*/
+	#homebutton {
+		width: 45px;
+		float: right;
+		margin: 2.5px 25px 2.5px 0;
+	}
+	.content {
+		background-color: #fff;;
+		max-width: 980px;
+		margin: 0 auto;
+		height: 100%;
+		position: relative;
+	}
+	.content p {
+		line-height: 24px;
+	}
+	#breadcrumb {
+		margin: 20px 0 0 2.040816%;
+		width: 71.428571%;
+	}
+	#breadcrumb p a {
+		text-decoration:none;
+		color: #0055A4;
+	}
+	#breadcrumb p a:hover {
+		color: #F78F1E;
+	}
+	.slider {
+		width: 100%;
+		position: relative;
+	}
+	.slider img {
+		max-width: 100%;
+		margin: 20px 0;
+	}
+	.sliderquote {
+		width: 46.938776%;
+		height: 75px;
+		position: absolute;
+		left: 20px;
+		bottom: 40px;
+		background-color: rgba(192, 192, 192, 0.7);
+	}
+	.sliderquote p {
+		width: 93.478261%;
+		padding: 0 3.26087%;
+		font-size: 1.5625em;
+		margin-top: 8px;
+	}
+	.servicebuttons {
+		overflow:hidden;
+	}
+	.servicebuttons figure {
+		position: relative;
+		max-width: 22.44898%;
+		float:left;
+	}
+	.servicebuttons figure:first-of-type {
+		margin-left: 2.040816%;
+	}
+	.servicebuttons figure {
+		margin-right: 2.040816%;
+	}
+	.servicebuttons figure img{
+			width: 100%;
+	}
+	.servicebuttons figure figcaption {
+		position: absolute;
+		z-index: 1000;
+		bottom: 3px;
+		font-size: 1.5em;
+		background-color: rgba(192, 192, 192, 0.6);
+		width: 100%;
+		text-align: center;
+		padding: 8px 0;
+		color: #000;
+	}
+	.servicebuttons figure:hover figcaption {
+		background-color: rgba(192, 192, 192, 0.8);
+		color: #fff;
+	}
+	.clearfix:before, .clearfix:after {
+		content: "";
+		display: table;
+	}
+	.clearfix:after {
+		clear: both;
+	}
+	#aboutus {
+		width: 46.938776%;
+		height: 150px;
+		margin-left: 2.040816%;
+		float: left;
+		margin-top: 20px;
+	}
+	#aboutus span {
+		font-size: 2.5em;
+	}
+	#aboutUsQuote {
+		width: 46.938776%;
+		margin-left: 2.040816%;
+		float: left;
+		margin-top: 20px;
+	}
+	footer {
+		max-width: 980px;
+		margin: 0 auto;
+		background-color: #F78F1E;
+		position: relative;
+	}
+	#subnav {
+		text-align: center;
+		width:100%;
+		padding-top: 20px;
+	}
+	#subnav ul {
+		max-width: 940px;;
+		top: 20px;
+	}
+	#subnav ul li {
+		display: inline-block;
+		list-style-type:none;
+		width: 20%;
+	}
+	#subnav ul .about {
+		float:left;
+	}
+	#subnav ul .service {
+		float:left;
+	}
+	#subnav ul .gallery {
+		float:left;
+	}
+	#subnav ul .price {
+		float:left;
+	}
+	#subnav ul .contact {
+		float:left;
+	}
+	#subnav ul li {
+	}
+	#subnav ul li a {
+		font-size: 1.125em;
+		font-weight:900;
+		color: #fff;
+		text-decoration:none;
+	}
+	#subnav ul li a:hover {
+		color: #000;
+	}
+	#subnav ul ul li {
+		display:block;
+		width: 100%;
+		padding-bottom: 5px;	
+	}
+	#subnav ul ul li a:hover {
+		color: #000;
+	}
+	#subnav ul ul li a {
+		font-size:1em;
+		font-weight: 400;
+	}
+	footer .small {
+		width: 100%;
+		text-align:center;
+		color: #fff;
+		padding: 10px 0 10px 0;
+		background-color: #3E2408;
+		clear:both;
+	}
+	footer .small a {
+		color: #fff;
+	}
+	footer .small a:hover{
+		color: #F78F1E;
+	}
+	
+	/*MAIN PAGE STYLES*/
+
+	.content h1 > a, .content a {
+		color: #000;
+	}
+	.content h1 > a:hover, .content a:hover {
+		color: #F78F1E;
+	}
+
+	.content h1, .content h2, .content h3, .content blockquote, .content ul, .content code, .content li, .content pre {
+		margin-left: 2.040816%;
+		margin-right: 2.040816%;
+		padding-top: 10px;
+	}
+
+	.content h1 + p, .content p { 
+		margin-top: 8px;
+		margin-left: 2.040816%;
+		margin-right: 2.040816%;
+		margin-bottom: 10px;
+	}
+
+
+
+	
+
+
+
+	
