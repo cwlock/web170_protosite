@@ -28,14 +28,14 @@
             <nav id="mainnav">
                 <ul>
                 	<li>
-                    	<a href="main.php">About Us</a>               
+                    	<a href="http://clockwooddw.com/web170/HTML/wordpress/">About Us</a>               
                         <ul>
                             <li><a href="owners.php">Owners</a></li>
                             <li><a href="partners.php">Partners</a></li>
                             <li><a href="testimonials.php">Testimonials</a></li>
                             <li><a href="#">Reviews</a></li>
                         </ul>
-                   </li><li><a href="services.php">Services</a>
+                   </li><li><a href="http://clockwooddw.com/web170/HTML/wordpress/blog/">Blog</a>
                         <ul>
                             <li><a href="#">Home Glass</a></li>
                             <li><a href="#">Commercial Glass</a></li>
@@ -51,14 +51,13 @@
                             <li><a href="#">Auto Glass</a></li>
                             <li><a href="#">Spcialty Glass</a></li>
                         </ul>
-                  </li><li><a href="#">Pricing</a>
+                  </li><li><a href="http://clockwooddw.com/web170/HTML/wordpress/portfolio/">Portfolio</a>
                     <ul>
-                        <li><a href="#">Insurance</a></li>
-                        <li><a href="#">Discounts</a></li>
-                        <li><a href="#">Groupons</a></li>
-                        <li><a href="#">Quote</a></li>
+                        <li><a href="http://clockwooddw.com/web170/HTML/wordpress/portfolio/logos/">Logos</a></li>
+                        <li><a href="http://clockwooddw.com/web170/HTML/wordpress/portfolio/print/">Print</a></li>
+                        <li><a href="http://clockwooddw.com/web170/HTML/wordpress/portfolio/websites/">Websites</a></li>
                     </ul>
-                  </li><li><a href="contact.php">Contact Us</a>
+                  </li><li><a href="http://clockwooddw.com/web170/HTML/wordpress/contact/">Contact Us</a>
                     <ul>
                         <li><a href="#">Location</a></li>
                         <li><a href="#">Calendar</a></li>
