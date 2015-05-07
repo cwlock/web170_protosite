@@ -8,7 +8,7 @@
          				<?php the_content(''); ?>
          				
          				<?php endwhile; endif; //end loop?> 
-					<h4>index</h4>
+					<h4>page</h4>
                     </div>  
 					<?php get_sidebar(); ?>
 <?php get_footer(); ?>

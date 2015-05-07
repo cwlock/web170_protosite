@@ -9,5 +9,9 @@ Description: This is a theme for my WEB 170 WordPress Class
 Version: 1.0
 */
 
+//Register menus
+register_nav_menus(array(
+	'main-menu' => __( 'Main' ),
+));
 
 ?>

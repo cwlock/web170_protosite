@@ -90,52 +90,56 @@ Version: 1.0
 
 	/*RESPONSIVE NAV END*/
 
-	#mainnav {
-		max-width: 100%;	
-		height: 50px;	
+	#navigation {
+		max-width: 980px;	
+		height: 54.5px;	
 		background-color: #F78F1E;
 		margin: 0 auto;		
 	}
-	#mainnav ul {
+	#navigation ul {
 		width: 71.428571%;
 		float: left;
 		height: 100%;
 		position:relative;
 		list-style-type: none;
 	}
-	#mainnav ul li {
+	#navigation ul li {
 		width: 20%;
 		display: inline-block;
 		text-align:center;
 		padding: 15px 0;
 	}
-	#mainnav ul li:hover {
+	#navigation ul li:hover {
 		background-color: #CCCCCC;
 	}
-	#mainnav ul li:hover ul {
+	#navigation ul li:hover ul {
 		display: block;
 		width: 20%;
 	}
-	#mainnav ul ul {
+	#navigation ul ul {
 		display:none;
 		position: absolute;
 		z-index: 1000;
-		margin-top: 10px;
+		margin-top: 15px;
 	}
-	#mainnav ul ul li {
+	#navigation ul ul li {
 		display:block;
 		width: 100%;
 		background-color: #808080;
 		padding: 15px 0;
 	}
-	#mainnav ul li a {
+	#navigation ul li a {
 		color: white;
 		text-decoration:none;
 		text-align:center;
 		font-size: 1.25em;
 	}
-	#mainnav ul ul li a {
+	#navigation ul ul li a {
 		font-size: 1em;
+	}
+
+	#navigation .current_page_item {
+		background-color: #CCCCCC;
 	}
 	
 	/*SEARCH BOX*/
@@ -166,15 +170,33 @@ Version: 1.0
 		float: right;
 		margin: 2.5px 25px 2.5px 0;
 	}
-	.content {
+	.contentWrapper {
 		background-color: #fff;;
-		max-width: 980px;
+		width: 980px;
 		margin: 0 auto;
 		height: 100%;
-		position: relative;
+	}
+	.content {
+		width: 780px;
+		float: left;
 	}
 	.content p {
 		line-height: 24px;
+	}
+	aside {
+		float: left;
+		width: 200px;
+		margin-top: 40px;
+	}
+	#main-sub-nav ul li {
+		list-style-type: none;
+	}
+	#main-sub-nav ul li a {
+		color: #0055A4;
+		text-decoration: none;	
+	}
+	#main-sub-nav ul li.current_page_item a {
+		color: 	#F78F1E;
 	}
 	#breadcrumb {
 		margin: 20px 0 0 2.040816%;
@@ -265,10 +287,10 @@ Version: 1.0
 		margin-top: 20px;
 	}
 	footer {
+		clear: both;
 		max-width: 980px;
 		margin: 0 auto;
 		background-color: #F78F1E;
-		position: relative;
 	}
 	#subnav {
 		text-align: center;
@@ -361,7 +383,112 @@ Version: 1.0
 
 
 
-	
+	/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
 
 
 
