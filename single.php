@@ -4,11 +4,14 @@
                     </div>
                     
          				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); //start loop?>
-						<h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
+         				
+						<h2><?php the_title(); ?></h2>
+        				<small>The By line goes here.</small>
+        				<?php echo get_the_post_thumbnail($post->ID,'large'); ?>
          				<?php the_content(''); ?>
          				
          				<?php endwhile; endif; //end loop?> 
-					<h4>single</h4>
+					<h4>single.php</h4>
                     </div>  
 					<?php get_sidebar(); ?>
 <?php get_footer(); ?>

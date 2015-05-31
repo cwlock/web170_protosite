@@ -42,7 +42,7 @@
                 </li>
                 </ul>
             </nav>
-    <div class="small"><p>&copy; 2014 D &amp; R Glass Works, All Rights Reserved | 513 Okoma Dr, Omak, WA 98841 | P: (509) 826-1728 | <a href="#">Disclaimer</a>
+    <div class="small"><p>&copy; 2014 D &amp; R Glass Works, All Rights Reserved | 513 Okoma Dr, Omak, WA 98841 | P: (509) 826-1728 | <a href="#">Disclaimer</a> | <?php wp_loginout(); ?>
     </p></div>
 </footer>
 </div>

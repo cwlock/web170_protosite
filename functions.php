@@ -14,4 +14,8 @@ register_nav_menus(array(
 	'main-menu' => __( 'Main' ),
 ));
 
+//Enable featured images and post thumbnails
+add_theme_support('post-thumbnails');
+
+
 ?>
