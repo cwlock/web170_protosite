@@ -175,6 +175,7 @@ Version: 1.0
 		width: 980px;
 		margin: 0 auto;
 		height: 100%;
+		overflow: hidden;
 	}
 	.content {
 		width: 780px;
@@ -188,6 +189,11 @@ Version: 1.0
 		width: 200px;
 		margin-top: 40px;
 	}
+	aside div.widget {
+		margin: 20px;	
+	}
+	
+	
 	#main-sub-nav ul li {
 		list-style-type: none;
 	}
