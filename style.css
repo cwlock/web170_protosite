@@ -171,10 +171,9 @@ Version: 1.0
 		margin: 2.5px 25px 2.5px 0;
 	}
 	.contentWrapper {
-		background-color: #fff;;
+		background-color: #fff;
 		width: 980px;
 		margin: 0 auto;
-		height: 100%;
 		overflow: hidden;
 	}
 	.content {
@@ -296,6 +295,9 @@ Version: 1.0
 		max-width: 980px;
 		margin: 0 auto;
 		background-color: #F78F1E;
+	}
+	.footercontent {
+	clear: both;	
 	}
 	#subnav {
 		text-align: center;

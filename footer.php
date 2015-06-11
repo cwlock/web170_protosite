@@ -1,4 +1,4 @@
-	
+</div>	
 <div class="footercontent">
 <footer>
                 <nav id="subnav">

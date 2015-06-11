@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title><?php bloginfo('description'); ?> | <?php bloginfo('name'); ?></title>
+    <title><?php get_my_title_tag(); ?></title>
+    
+    <meta name="description" content="<?php echo get_the_excerpt(); ?>" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, maximum-scale=2" />
     <link rel="icon" href="images/favicon.ico" type="images/favicon" />
@@ -29,4 +31,4 @@
             <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => 'nav','container_id' => 'navigation', 'items_wrap' => '<ul id="navigation-items" class="%2$s">%3$s</ul>', ) ); ?>
             
 	</div>
-               
+    <div class="contentWrapper">           
